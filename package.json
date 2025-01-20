@@ -2,35 +2,31 @@
   "name": "aspect-ratio-calculator",
   "displayName": "Aspect Ratio Calculator",
   "description": "Simplifies pixel-based aspect ratios in Tailwind CSS",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.80.0"
   },
   "categories": [
     "Other"
   ],
-  "keywords": [
-    "aspect ratio",
-    "tailwind",
-    "css",
-    "tailwindcss"
-  ],
   "activationEvents": [
     "onStartupFinished"
   ],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "extension.calculateAspectRatio",
-      "title": "Calculate Aspect Ratio"
-    }]
+    "commands": [
+      {
+        "command": "extension.calculateAspectRatio",
+        "title": "Calculate Aspect Ratio"
+      }
+    ]
   },
   "devDependencies": {
     "@types/vscode": "^1.80.0",
     "@types/node": "^20.x.x",
     "eslint": "^8.x.x"
   },
-  "publisher": "Arda Uzun",
+  "publisher": "ardauzun",
   "repository": {
     "type": "git",
     "url": "https://github.com/ardauzun0/aspect-ratio-calculator"

@@ -26,7 +26,7 @@ function activate(context) {
 
     context.subscriptions.push(hoverProvider);
 }
-
+    
 function deactivate() {}
 
 module.exports = {
