@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+ <rect width="128" height="128" fill="#1e1e1e"/>
+ <rect x="24" y="24" width="80" height="45" fill="none" stroke="#fff" stroke-width="4"/>
+ <rect x="24" y="59" width="45" height="45" fill="none" stroke="#fff" stroke-width="4"/>
+ <text x="64" y="108" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="14">ASPECT</text>
+</svg> 
