@@ -2,7 +2,7 @@
   "name": "aspect-ratio-calculator",
   "displayName": "Aspect Ratio Calculator",
   "description": "Simplifies pixel-based aspect ratios in Tailwind CSS",
-  "version": "0.0.2",
+  "version": "0.0.5", 
   "engines": {
     "vscode": "^1.80.0"
   },

@@ -1,8 +1,13 @@
 const vscode = require('vscode');
 
 function activate(context) {
-    // Hover provider
-    const hoverProvider = vscode.languages.registerHoverProvider(['javascript', 'typescript', 'html', 'css'], {
+    let disposable = vscode.commands.registerCommand('extension.calculateAspectRatio', function () {
+        vscode.window.showInformationMessage('Aspect Ratio Calculated!');
+    });
+
+    context.subscriptions.push(disposable);
+
+    const hoverProvider = vscode.languages.registerHoverProvider(['html', 'php', 'handlebars'], {
         provideHover(document, position) {
             const range = document.getWordRangeAtPosition(position, /aspect-\[\d+\/\d+\]/);
             if (!range) return;
